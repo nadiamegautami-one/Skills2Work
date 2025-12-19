@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Skills2Kerja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Skills2work</h1>
+  <p>Login untuk mulai belajar & kerja</p>
+</header>
+
+<!-- LOGIN -->
+<div class="login" id="login">
+  <h2>Masuk</h2>
+  <input type="text" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <button onclick="login()">Masuk</button>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard" id="dashboard">
+
+  <div class="menu">
+    <button onclick="showSection('training')">🎓 Pelatihan</button>
+    <button onclick="showSection('jobs')">💼 Lowongan Kerja</button>
+    <button onclick="showSection('freelance')">🧑‍💻 Freelance</button>
+    <button onclick="showSection('profile')">👤 Profil</button>
+  </div>
+
+  <!-- PELATIHAN -->
+  <div id="training" class="section">
+    <h2>Pelatihan (2 Bulan)</h2>
+    <div class="grid">
+      <div class="box">
+        <h3>Web Developer</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <strong>Sertifikat</strong>
+      </div>
+      <div class="box">
+        <h3>UI/UX Designer</h3>
+        <p>Figma & Design System</p>
+        <strong>Sertifikat</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- JOBS -->
+  <div id="jobs" class="section">
+    <h2>Lamaran Kerja</h2>
+    <div class="box">
+      <h3>Upload CV & Sertifikat</h3>
+      <input type="file">
+      <input type="file">
+      <button>Submit Lamaran</button>
+    </div>
+    <div class="box">
+      <h3>Software Engineer - Jepang</h3>
+      <p>Status: <strong>Menunggu Panggilan</strong></p>
+    </div>
+  </div>
+
+  <!-- FREELANCE -->
+  <div id="freelance" class="section">
+    <h2>Freelance</h2>
+    <div class="grid">
+      <div class="box">
+        <h3>Frontend Developer</h3>
+        <p>Remote - Internasional</p>
+        <a href="https://wa.me/628000000000" target="_blank">Hubungi via WA</a>
+      </div>
+      <div class="box">
+        <h3>Graphic Designer</h3>
+        <p>Indonesia</p>
+        <a href="https://wa.me/628000000000" target="_blank">Hubungi via WA</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROFILE -->
+  <div id="profile" class="section">
+    <h2>Profil</h2>
+    <div class="box">
+      <input type="text" placeholder="Nama Lengkap">
+      <textarea placeholder="Portfolio (link / deskripsi)"></textarea>
+      <button>Simpan Profil</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
