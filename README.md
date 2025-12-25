@@ -1,2 +1,3 @@
-# Skills2Work
-website untuk mencari pelatihan,pekerjaan,dan freelance di satu tempat.
+# Skill2Work
+website untuk pelatihan skill bersertifikat dan menentukan pekerjaan sesuai passion.
+
